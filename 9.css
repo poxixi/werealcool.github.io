@@ -1,0 +1,259 @@
+.containerL {
+  Top: 93%;
+  position: fixed;
+  left: 2%;
+}
+.containerR {
+  position: fixed;
+  top: 93%;
+  right: 2%;
+}
+.containerC {
+  Top: 93%;
+  position: fixed;
+  right: 48%;
+}
+.containerL:hover .bar1 {
+  -webkit-transform: rotate(-30deg) translate(-3px, 6px);
+  transform: rotate(-30deg) translate(-3px, 6px);
+}
+.containerL:hover .bar2 {
+  opacity: 0;
+}
+.containerL:hover .bar3 {
+  -webkit-transform: rotate(30deg) translate(3px, 4px);
+  transform: rotate(30deg) translate(3px, 4px);
+}
+.containerR:hover .bar1 {
+  -webkit-transform: rotate(30deg) translate(5px, 5px);
+  transform: rotate(30deg) translate(5px, 5px);
+}
+.containerR:hover .bar2 {
+  opacity: 0;
+}
+.containerR:hover .bar3 {
+  -webkit-transform: rotate(-30deg) translate(-2px, 5px);
+  transform: rotate(-30deg) translate(-2px, 5px);
+}
+.containerC:hover .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-2px, 8px);
+  transform: rotate(-45deg) translate(-2px, 8px);
+}
+.containerC:hover .bar2 {
+  opacity: 0;
+}
+.containerC:hover .bar3 {
+  -webkit-transform: rotate(45deg) translate(-2px, -8px);
+  transform: rotate(45deg) translate(-2px, -8px);
+}
+.bar1,
+.bar2,
+.bar3 {
+  width: 25px;
+  height: 1px;
+  background-color: black;
+  margin: 6px 0;
+}
+span {
+  border: none;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  margin: auto;
+  margin-bottom: 150px;
+  width: 94%;
+  white-space: nowrap;
+}
+.one {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  z-index: 666;
+}
+.one span {
+  left: 0;
+  top: 0;
+  position: absolute;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  line-height: 50px;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  background-color: #000000;
+  border: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  outline: none;
+  border: 2px solid #000;
+  transition: top 1s;
+  /* 动画 */
+}
+.one:hover span {
+  top: 150px;
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+}
+.one.w:hover ~ .one.w span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+.one.w:hover,
+.one.e:hover,
+.one.r:hover,
+.one.a:hover,
+.one.l:hover,
+.one.c:hover {
+  border: none;
+}
+.one.e:hover ~ .one.e span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+.one.r:hover ~ .one.r span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+.one.a:hover ~ .one.a span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+.one.l:hover ~ .one.l span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+.one.c:hover ~ .one.c span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+.one.o:hover ~ .one.o span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+.one.f:hover ~ .one.f span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+.one.t:hover ~ .one.t span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+.one.s:hover ~ .one.s span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+.one.h:hover ~ .one.h span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+.one.i:hover ~ .one.i span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+.one.k:hover ~ .one.k span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+.one.g:hover ~ .one.g span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+.one.n:hover ~ .one.n span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+.one.j:hover ~ .one.j span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+.one.z:hover ~ .one.z span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+.one.u:hover ~ .one.u span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+.one.d:hover ~ .one.d span {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  top: 150px;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {
+    background-color: white;
+    left: 0px;
+    top: 0px;
+  }
+  to {
+    background-color: white;
+    left: 0px;
+    top: 150px;
+  }
+}
+/* Standard syntax */
+@keyframes example {
+  from {
+    background-color: white;
+    left: 0px;
+    top: 0px;
+  }
+  to {
+    background-color: white;
+    left: 0px;
+    top: 150px;
+  }
+}

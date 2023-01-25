@@ -1,0 +1,278 @@
+<html><head>
+	<title>We Real Cool 15</title>
+	<meta chartset="utf-8">
+<style>
+
+
+.containerL{
+	Top:93%;
+	position: fixed;
+    left:2%;
+}
+.containerR{
+	position: fixed;
+    top:93%;
+	right:2%;
+}
+.containerC{
+	Top:93%;
+	position: fixed;
+	right:48%;
+}
+
+.containerL:hover .bar1{
+		-webkit-transform: rotate(-30deg) translate(-3px,
+
+6px) ;
+		transform: rotate(-30deg) translate(-3px, 6px) ;
+	}
+.containerL:hover .bar2{
+		opacity: 0;
+	}
+.containerL:hover .bar3{
+		-webkit-transform: rotate(30deg) translate(3px,
+
+4px) ;
+		transform: rotate(30deg) translate(3px, 4px) ;
+	}
+
+
+.containerR:hover .bar1{
+		-webkit-transform: rotate(30deg) translate(5px,
+
+5px) ;
+		transform: rotate(30deg) translate(5px, 5px) ;
+	}
+.containerR:hover .bar2{
+		opacity: 0;
+	}
+.containerR:hover .bar3{
+		-webkit-transform: rotate(-30deg) translate(-2px,
+
+5px) ;
+		transform: rotate(-30deg) translate(-2px, 5px) ;
+	}
+
+.containerC:hover .bar1{
+    -webkit-transform: rotate(-45deg) translate(-2px, 8px) ;
+    transform: rotate(-45deg) translate(-2px, 8px) ;
+	}
+.containerC:hover .bar2{
+		opacity: 0;
+	}
+.containerC:hover .bar3{
+    -webkit-transform: rotate(45deg) translate(-2px, -8px) ;
+    transform: rotate(45deg) translate(-2px, -8px) ;
+	}
+
+.bar1, .bar2, .bar3{
+    width: 25px;
+    height: 1px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+body {
+	background-color:black;
+	margin-bottom:30px;
+}
+
+.author {
+    margin-left:1000px;
+	width:300px;
+	height:20px;
+	padding:20px;
+	top:25%;
+	text-align:left;
+	color:white;
+	position:fixed;
+	font-size:23px;
+	line-height:35px;
+	padding-bottom:70px;
+	text-decoration:underline;
+	font-family:Arial, sans-serif;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg); /* Standard syntax */
+}
+
+.container {
+	width:100%;
+	margin:0 auto;
+	padding:50px;
+}
+
+.poem {
+	width:100%;
+	height:auto;
+	text-align:left;
+	font-family:"Roboto Mono", monospace;
+	font-weight:100;
+	font-size:200px;
+	line-height:300px;
+	color:white;
+	-webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: blue;
+
+}
+.poem:hover{
+	-webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 5px 5px  5px blue;
+}
+
+hr {
+	border:0;
+	height:15px;
+	background: linear-gradient(blue, white);
+}
+
+@keyframes hvrflip {
+ from {transform: rotateY(0deg);}
+ to {transform: rotateY(360deg);}
+}
+
+.hvr-flip {}
+
+.hvr-flip:hover, .hvr-flip:focus, .hvr-flip:active {
+  animation: hvrflip 5s linear;
+  animation-iteration-count: 1;
+}
+
+.shape{
+	width: 60px;
+    height: 0px;
+    background-color:black;
+    border-radius: 0px;
+
+}
+.shape:hover{
+	animation: hvrflip 5s linear infinite;
+}
+
+
+#diamond {
+	position: fixed;
+    left: 680px;
+    top: 40px;
+	width: 0;
+	height: 0;
+	border: 40px solid transparent;
+	border-bottom-color: yellow;
+    background-color: transparent;
+
+}
+#diamond:after {
+	content: '';
+	position: absolute;
+	left: -40px;
+	top: 40px;
+	width: 0;
+	height: 0;
+	border: 40px solid transparent;
+	border-top-color: blue;
+    background-color: transparent;
+
+}
+
+
+#pentagon {
+    position: fixed;
+    left: 100px;
+    top: 330px;
+    width: 54px;
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: yellow transparent;
+	background: transparent;
+}
+#pentagon:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -85px;
+    left: -18px;
+    border-width: 0 45px 35px;
+    border-style: solid;
+    border-color: transparent transparent blue;
+}
+
+
+#cut-diamond {
+position: fixed;
+    left: 1100px;
+    top: 450px;
+    border-style: solid;
+    border-color: transparent transparent yellow transparent;
+    border-width: 0 25px 25px 25px;
+	background: transparent;
+    height: 0;
+    width: 30px;
+    margin: 20px 0 50px 0;
+}
+#cut-diamond:after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: -25px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: blue transparent transparent transparent;
+    border-width: 70px 40px 0 40px;
+}
+
+
+</style></head>
+
+
+
+<body>
+<div class="container">
+<div class="author">We Real Cool<br>by Gwendolyn Brooks</div>
+<div class="poem">We<br> real <hr>cool.<br> We<br>
+<hr>
+Left <br> school.<hr> We<br>
+
+Lurk <hr> late. <br> We<hr> Strike straight.<hr>We<br>
+
+Sing <hr>sin.<br> We<hr> Thin<br> gin<hr> We<br>
+
+Jazz <hr>June.<br>We<hr> Die<br> soon
+<hr>
+
+</div>
+
+<div class="shape" id="diamond">
+</div>
+<div class="shape" id="pentagon">
+</div>
+<div class="shape" id="cut-diamond">
+</div>
+
+	<a href="14.html" class="containerL">
+		<div>
+		  <div class="bar1"></div>
+		  <div class="bar2"></div>
+		  <div class="bar3"></div>
+		</div>
+	</a>
+		<a href="index.html" class="containerC">
+		<div>
+		  <div class="bar1"></div>
+		  <div class="bar2"></div>
+		  <div class="bar3"></div>
+		</div>
+	</a>
+		<a href="index.html" class="containerR">
+		<div>
+		  <div class="bar1"></div>
+		  <div class="bar2"></div>
+		  <div class="bar3"></div>
+		</div>
+	</a>
+
+</body></html>
